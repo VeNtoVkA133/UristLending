@@ -1,0 +1,56 @@
+.header{
+    &-nav{
+        &-logo{
+            float: left;
+            display: flex;
+            margin: 16px 0 20px 0;
+
+            &-img{
+                margin: 0 15px 0 0;
+            }
+            &-title{
+                display: block;
+            }
+        }
+        &-contacts{
+            float: right;
+            display: flex;
+            &-btn{
+                margin: 0 15px 0 0;
+                @include btnnone;
+            }
+            &-phone{
+                display: block;
+            }
+        }
+        &-wrapperlist{
+            padding: 5px 8px;
+            background-color: #fff;
+        }
+        &-list{
+            clear: both;
+            display: flex;
+            width: 1080px;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            background-color: #fff;
+            border: 1px;
+            border-style: dashed;
+            border-color: #d1ad84;
+            & li{
+                padding: 0 111px 0 0;
+                &:nth-child(1){
+                    padding: 0 105px 0 25px;
+                }
+                &:nth-last-child(1){
+                    padding: 0 25px 0 105px;
+                }
+                &:nth-last-child(2){
+                    padding: 0;
+                    display: flex;
+                } 
+            } 
+        } 
+    }
+}

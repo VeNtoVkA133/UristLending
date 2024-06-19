@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/* Переменные (через $) */
+/* === wrapper === */
+/* Обёртки - отдельный блок */
+.wrapper {
+  /*Максимальная ширина страницы и выравнивание содержимого по центру*/
+  max-width: 1920px;
+  margin: 0 auto;
+  /* Обёртка для прижатия подвала к нижней части */
+}
+.wrapper-container {
+  padding: 0 388px;
+  box-sizing: border-box;
+}
+.wrapper-forcontent {
+  min-height: 100vh; /* 100 видимых высот */
+  display: flex;
+  flex-direction: column;
+}
+
+/* end === wrapper === end */
+/* === content-without-footer === */
+/* Основная часть без footer */
+.content-without-footer {
+  flex-grow: 1; /* Отношение блоков */
+}
+
+/* end === content-without-footer === end */
+/* Шрифты */
+/* example: 
+@font-face {
+    font-family: lato;
+    src: url(../fonts/lato-light.ttf);
+    font-weight: 300;
+    font-style: normal;
+}*/
+@font-face {
+  font-family: rubik-medium;
+  src: url(../fonts/rubik-medium.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: rubik-regular;
+  src: url(../fonts/rubik-regular.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+/* mixin */
+/* example:
+@mixin font-lato-normal-size-line($size-format: 400, $fonts:14px, $linehe: 17px) {
+    font-family: lato;
+    font-weight: $size-format;
+    font-style: normal;
+    font-size: $fonts;
+    line-height: $linehe;
+}*/
+.header-nav-logo {
+  float: left;
+  display: flex;
+  margin: 16px 0 20px 0;
+}
+.header-nav-logo-img {
+  margin: 0 15px 0 0;
+}
+.header-nav-logo-title {
+  display: block;
+}
+.header-nav-contacts {
+  float: right;
+  display: flex;
+}
+.header-nav-contacts-btn {
+  margin: 0 15px 0 0;
+  border: none;
+  background-color: transparent;
+}
+.header-nav-contacts-phone {
+  display: block;
+}
+.header-nav-wrapperlist {
+  padding: 5px 8px;
+  background-color: #fff;
+}
+.header-nav-list {
+  clear: both;
+  display: flex;
+  width: 1080px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #fff;
+  border: 1px;
+  border-style: dashed;
+  border-color: #d1ad84;
+}
+.header-nav-list li {
+  padding: 0 111px 0 0;
+}
+.header-nav-list li:nth-child(1) {
+  padding: 0 105px 0 25px;
+}
+.header-nav-list li:nth-last-child(1) {
+  padding: 0 25px 0 105px;
+}
+.header-nav-list li:nth-last-child(2) {
+  padding: 0;
+  display: flex;
+}/*# sourceMappingURL=style.css.map */
