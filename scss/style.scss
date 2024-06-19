@@ -1,5 +1,9 @@
-@import "./varibles.scss";
+@import "_varibles.scss";
 @import "_fonts.scss";
 @import "_mix.scss";
 @import "_index.scss"; // в этом файле должны быть стили для страницы index
 
+body{
+    margin: 0;
+    background-color: #f3f3f3;
+}

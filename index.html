@@ -5,60 +5,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
     <!--обёртка для всего содержимого, чтобы прижать footer к нижней части-->
-    <div class="wrapper wrapper-forcontent wrapper-container">
+    <div class="wrapper wrapper-forcontent">
         <!--Содержимое сайта без подвала (нужно для прижатия подвала к нижней части)-->
         <div class="content-without-footer">
             <!--Шапка сайта-->
             <header class="header">
-                <nav class="heder-nav">
-                    <figure class="header-nav-logo">
-                        <img src="images/logo.svg" alt="logoimg" class="header-nav-logo-img" width="40" height="40">
-                        <span class="header-nav-logo-title">ООО Булат</span>
-                    </figure>
-                    <figure class="header-nav-contacts">
-                        <button class="header-nav-contacts-btn">
-                            <img src="images/whatsapp_logo.svg" alt="whatsappimg" class="header-nav-contacts-btn-img" width="20" height="20">
-                        </button>
-                        <button class="header-nav-contacts-btn">
-                            <img src="images/telegram_logo.svg" alt="tgimg" class="header-nav-contacts-btn-img" width="20" height="20">
-                        </button>
-                        <span class="header-nav-contacts-phone">8(800)555-55-55</span>
-                    </figure>
-                    <ul class="header-nav-list">
-                        <li>Главная</li>
-                        <li>Услуги</li>
-                        <li>Команда юристов</li>
-                        <li>Отзывы</li>
-                        <li>Полезные материалы</li>
-                        <li>Контакты</li>
-                    </ul>
-                </nav>
-                <div class="header-wrapperinfo">
-                    <figure class="header-info">
-                        <h1 class="header-info-title">
-                            <span class="header-info-title-txt1"></span>
-                            <span class="header-info-title-txt2"></span>
-                        </h1>
-                        <figure class="header-info-card1">
-                            <img src="images/document_icon.svg" alt="document_icon" class="header-info-card1-img" width="40" height="40">
-                            <p class="header-info-card1-txt">Определяем и обосновываем вероятность успеха до заключения</p>
+                <img src="images/bgheader.jpg" alt="bgimg" class="header-bgimg" wigth="100%" height="850">
+                <img src="images/bgmanheader.png" alt="bgman" class="header-bgman" wigth="1200" height="675">
+                <div class="wrapper-container">
+                    <nav class="heder-nav">
+                        <figure class="header-nav-logo">
+                            <img src="images/logo.svg" alt="logoimg" class="header-nav-logo-img" width="40" height="40">
+                            <span class="header-nav-logo-title">ООО Булат</span>
                         </figure>
-                        <figure class="header-info-card2">
-                            <img src="images/dollar_icon.svg" alt="dollar_icon" class="header-info-card2-img" width="40" height="40">
-                            <p class="header-info-card2-txt">Выигрываем суммы сверх оспариваемой и уплаченной нам</p>
+                        <figure class="header-nav-contacts">
+                            <button class="header-nav-contacts-btn">
+                                <img src="images/whatsapp_logo.svg" alt="whatsappimg" class="header-nav-contacts-btn-img" width="20" height="20">
+                            </button>
+                            <button class="header-nav-contacts-btn">
+                                <img src="images/telegram_logo.svg" alt="tgimg" class="header-nav-contacts-btn-img" width="20" height="20">
+                            </button>
+                            <span class="header-nav-contacts-phone">8(800)555-55-55</span>
                         </figure>
-                        <figure class="header-info-card3">
-                            <img src="images/scales_icon.svg" alt="scales_icon" class="header-info-card3-img" width="40" height="40">
-                            <p class="header-info-card3-txt">Ведущие специалисты: адвокаты - кандидаты наук, федеральный судья в отставке с опытом больше 15 лет</p>
+                        <div class="header-nav-wrapperlist">
+                            <ul class="header-nav-list">
+                                <li>Главная</li>
+                                <li>Услуги</li>
+                                <li>Команда юристов</li>
+                                <li>Отзывы</li>
+                                <li>Полезные материалы</li>
+                                <li>Контакты</li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="header-wrapperinfo">
+                        <figure class="header-info">
+                            <h1 class="header-info-title">
+                                <span class="header-info-title-txt1">Юридические услуги</span>
+                                <span class="header-info-title-txt2">с гарантией результата</span>
+                            </h1>
+                            <figure class="header-info-card">
+                                <img src="images/document_icon.svg" alt="document_icon" class="header-info-card-img" width="40" height="40">
+                                <p class="header-info-card-txt">Определяем и обосновываем вероятность успеха до заключения</p>
+                            </figure>
+                            <figure class="header-info-card">
+                                <img src="images/dollar_icon.svg" alt="dollar_icon" class="header-info-card-img" width="40" height="40">
+                                <p class="header-info-card-txt">Выигрываем суммы сверх оспариваемой и уплаченной нам</p>
+                            </figure>
+                            <figure class="header-info-card">
+                                <img src="images/scales_icon.svg" alt="scales_icon" class="header-info-card-img2" width="40" height="40">
+                                <p class="header-info-card-txt">Ведущие специалисты: адвокаты - кандидаты наук, федеральный судья в отставке с опытом больше 15 лет</p>
+                            </figure>
+                            <button class="header-info-btn">Бесплатная консультация юриста</button>
                         </figure>
-                        <button class="header-info-btn">Бесплатная консультация юриста</button>
-                    </figure>
+                    </div>
                 </div>
             </header>
 
@@ -73,47 +78,49 @@
 
         <!--Подвал сайта-->
         <footer>
-            <span class="footer-title"></span>
-            <span class="footer-desc"></span>
-            <ul class="footer-btnlist">
-
-                <li class="footer-btnlist-li">
-                    <button class="footer-btnlist-li-btn">
-                        <img src="images/phone_footer.svg" alt="+7 (965) 111- 2233" class="footer-btnlist-li-btn-img" widht="30" height="30">
-                        <span class="footer-btnlist-li-btn-txt">+7 (965) 111- 2233</span>
-                    </button>
-                </li>
-                <li class="footer-btnlist-li">
-                    <button class="footer-btnlist-li-btn">
-                        <img src="images/telegram_footer.svg" alt="Telegram" class="footer-btnlist-li-btn-img" widht="30" height="30">
-                        <span class="footer-btnlist-li-btn-txt">Telegram</span>
-                    </button>
-                </li>
-                <li class="footer-btnlist-li">
-                    <button class="footer-btnlist-li-btn">
-                        <img src="images/whatsapp_footer.svg" alt="WhatsApp" class="footer-btnlist-li-btn-img" widht="30" height="30">
-                        <span class="footer-btnlist-li-btn-txt">WhatsApp</span>
-                    </button>
-                </li>
-                <li class="footer-btnlist-li">
-                    <button class="footer-btnlist-li-btn">
-                        <img src="images/instagram_footer.svg" alt="Instagram" class="footer-btnlist-li-btn-img" widht="30" height="30">
-                        <span class="footer-btnlist-li-btn-txt">Instagram</span>
-                    </button>
-                </li>
-                <li class="footer-btnlist-li">
-                    <button class="footer-btnlist-li-btn">
-                        <img src="images/vk_footer.svg" alt="ВКонтакте" class="footer-btnlist-li-btn-img" widht="30" height="30">
-                        <span class="footer-btnlist-li-btn-txt">ВКонтакте</span>
-                    </button>
-                </li>
-                <li class="footer-btnlist-li">
-                    <button class="footer-btnlist-li-btn">
-                        <span class="footer-btnlist-li-btn-txt">Заказать звонок</span>
-                    </button>
-                </li>
-            </ul>
+            <div class="wrapper-container">
+                <span class="footer-desc"></span>
+                <ul class="footer-btnlist">
+                    
+                    <li class="footer-btnlist-li">
+                        <button class="footer-btnlist-li-btn">
+                            <img src="images/phone_footer.svg" alt="+7 (965) 111- 2233" class="footer-btnlist-li-btn-img" widht="30" height="30">
+                            <span class="footer-btnlist-li-btn-txt">+7 (965) 111- 2233</span>
+                        </button>
+                    </li>
+                    <li class="footer-btnlist-li">
+                        <button class="footer-btnlist-li-btn">
+                            <img src="images/telegram_footer.svg" alt="Telegram" class="footer-btnlist-li-btn-img" widht="30" height="30">
+                            <span class="footer-btnlist-li-btn-txt">Telegram</span>
+                        </button>
+                    </li>
+                    <li class="footer-btnlist-li">
+                        <button class="footer-btnlist-li-btn">
+                            <img src="images/whatsapp_footer.svg" alt="WhatsApp" class="footer-btnlist-li-btn-img" widht="30" height="30">
+                            <span class="footer-btnlist-li-btn-txt">WhatsApp</span>
+                        </button>
+                    </li>
+                    <li class="footer-btnlist-li">
+                        <button class="footer-btnlist-li-btn">
+                            <img src="images/instagram_footer.svg" alt="Instagram" class="footer-btnlist-li-btn-img" widht="30" height="30">
+                            <span class="footer-btnlist-li-btn-txt">Instagram</span>
+                        </button>
+                    </li>
+                    <li class="footer-btnlist-li">
+                        <button class="footer-btnlist-li-btn">
+                            <img src="images/vk_footer.svg" alt="ВКонтакте" class="footer-btnlist-li-btn-img" widht="30" height="30">
+                            <span class="footer-btnlist-li-btn-txt">ВКонтакте</span>
+                        </button>
+                    </li>
+                    <li class="footer-btnlist-li">
+                        <button class="footer-btnlist-li-btn">
+                            <span class="footer-btnlist-li-btn-txt">Заказать звонок</span>
+                        </button>
+                    </li>
+                </ul>
+            </div>
         </footer>
+        <span class="footer-title"></span>
     </div>
 </body>
 
